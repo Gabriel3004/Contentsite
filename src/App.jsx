@@ -1,4 +1,4 @@
-
+import Carousel from './component/Carousel/Carousel'
 import './App.css'
 
 function App() {
@@ -6,7 +6,8 @@ function App() {
 
   return (
     <>
-
+    <h1>Hello</h1>
+    <Carousel />
     </>
   )
 }
