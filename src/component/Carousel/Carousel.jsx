@@ -24,7 +24,6 @@ const Carousel = () => {
     try {
         const response = await client.getEntries({ content_type: 'contensiteTechno' })
         const responseDada = response.items
-        console.log(responseData)
         if(responseDada) {
             cleanUpCarouselSlides(responseDada)
         } else {
