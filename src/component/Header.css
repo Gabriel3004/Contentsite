@@ -1,0 +1,32 @@
+.navbar{
+    width:100%;
+    background-color: #2596be;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height:200px;
+}
+
+.logo{
+    border-radius: 45px;
+    max-width: 10em;
+}
+.desc{
+    display:flex;
+    justify-content:end;
+}
+
+.menu{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    padding:5px;
+    margin-right:10px;
+    background-color: #071e26;
+    border:none;
+    color:white;
+}
+
+.menu:hover{
+    background-color: #bee0ec;
+}

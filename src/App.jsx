@@ -1,4 +1,5 @@
-import Carousel from './component/Carousel/Carousel'
+import Contenful from "./component/Contentful";
+import  Header  from "./component/Header";
 import './App.css'
 
 function App() {
@@ -6,8 +7,9 @@ function App() {
 
   return (
     <>
-    <h1>Hello</h1>
-    <Carousel />
+    <h1>Hallo</h1>
+    <Header />
+    <Contenful />
     </>
   )
 }
