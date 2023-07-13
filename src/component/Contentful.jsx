@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { createClient } from 'contentful';
-import Technotools from "./Bilder/Technotools.png";
 import './Content.css'
 
 

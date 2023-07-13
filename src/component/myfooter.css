@@ -24,13 +24,13 @@
     padding: 30px;
 }
 
-input {
+.sendme input {
     /* height: 32px; */
     width: 200px;
     background-color: #F1F2F6;
     color: #27187E;
     border: none;
-    border-radius: 10%;
+    border-radius: 2%;
     padding: 10px;
 }
 

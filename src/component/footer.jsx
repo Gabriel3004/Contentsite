@@ -5,6 +5,7 @@ function MyFooter () {
     
     return (
         <>
+        
         <section className='container-foot'>
             <div className="Acount">
                 <div className="newsletter">
@@ -13,7 +14,7 @@ function MyFooter () {
                 <p>Signup to get the latest news...</p>
                 </div>
 
-                <div>
+                <div className="sendme" >
                     <form action="email">
                     <input type="email" placeholder="Your Email Addresse" /></form>
                     <button className='ok'>OK</button>

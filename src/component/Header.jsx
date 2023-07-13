@@ -1,4 +1,6 @@
 import Technotools from "./Bilder/Technotools.png";
+import  PopupGfg  from "./PopupGfg";
+
 
 function Header() {
 
@@ -11,9 +13,9 @@ function Header() {
             </div>
             
             <div className='menu'>
-                    <li><button className="login"> <a href=""> Login</a></button></li>     
+              <PopupGfg />
+                        
             </div>
-
         </nav>
       </header>
 
