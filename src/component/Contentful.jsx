@@ -27,6 +27,7 @@ function Contenful () {
         <>
         
         <h1 id='techno'>
+          
             Better space, better work.
             </h1>
 

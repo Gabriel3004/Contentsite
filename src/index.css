@@ -6,3 +6,8 @@
     background: rgb(39,24,126);
 background: linear-gradient(180deg, rgba(39,24,126,1) 0%, rgba(117,139,253,1) 35%, rgba(174,184,254,1) 100%);
 }
+
+.map{
+    max-width:340px;
+    height:auto;
+}
