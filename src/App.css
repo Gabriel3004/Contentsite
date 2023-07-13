@@ -33,6 +33,8 @@
 
 .menu a {
     color: #bee0ec;
+    text-decoration: none;
+
 }
 
 .login {
