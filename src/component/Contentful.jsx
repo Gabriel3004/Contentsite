@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { createClient } from 'contentful';
+import Technotools from "./Bilder/Technotools.png";
+import './Content.css'
 
 
 const client = createClient({
@@ -23,21 +25,41 @@ function Contenful () {
 
     return (
         <>
-        <h1>Techno Tools</h1>
+        
+        <h1 id='techno'>
+            Better space, better work.
+            </h1>
+
+        <section>
+        <div>
+        <div className='container'>
         {entries.map((entry) => {
         return (
-          <div key={entry.sys.id}>
-            <h2>{entry.fields.Title}</h2>
+
+
+          <div className='border'
+          key={entry.sys.id}>
+            <h3 className='title'>{entry.fields.Title}</h3>
             <img
+                className='my-img'
               src={entry.fields.image.fields.file.url}
               alt={entry.fields.Title}
-              width='50%'
+              width=''
             />
-            <p>{entry.fields.description}</p>
-            <p>{entry.fields.money}</p>
+            <p className='description'>{entry.fields.description}</p>
+            <p className='price'>{entry.fields.money}</p>
+            <button className='button'>Buy</button>
           </div>
+
         );
       })}
+
+
+
+      </div>
+        </div>
+        
+      </section>
         </>
     );
     
