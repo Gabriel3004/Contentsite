@@ -1,10 +1,16 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 .navbar{
     width:100%;
     background-color: #2596be;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    max-height:200px;
+    min-height:130px;
 }
 
 .logo{
@@ -22,11 +28,27 @@
     flex-direction: row;
     padding:5px;
     margin-right:10px;
-    background-color: #071e26;
     border:none;
+    color:white;
+    
+}
+
+li{
+  margin-left:15px;
+  background-color: #92cbdf;
+  padding:5px;
+  
+  
+}
+
+li:hover{
+    background-color: #071e26;
     color:white;
 }
 
-.menu:hover{
-    background-color: #bee0ec;
+.lgo{
+    width:9em;
+    height:9em;
+    margin-left:5px;
+    padding-right:5px;
 }

@@ -8,7 +8,7 @@ function Header() {
         <nav className='navbar'>
             <div className='logo1'> 
 
-            <img src=''alt='logo'></img>
+            <img src='/img/logo.png'alt='logo' className='lgo'></img>
 
             </div>
 
@@ -27,34 +27,7 @@ function Header() {
         </nav>
       </header>
 
-      <main>
-        <div className='elements'>
-            <div className='elt'>
-                <h2 className='article'></h2>
-                <p className='infos'></p>
-                <img src='' alt=''></img>
-            </div>
-            <div className='elt'>
-            <h2 className='article'></h2>
-                <p className='infos'></p>
-                <img src='' alt=''></img>
-            </div>
-            <div className='elt'>
-            <h2 className='article'></h2>
-                <p className='infos'></p>
-                <img src='' alt=''></img>
-            </div>
-            <div className='elt'>
-            <h2 className='article'></h2>
-                <p className='infos'></p>
-                <img src='' alt=''></img>
-            </div>
-        </div>
-        <div className='scroll'>
-            <button className='btn'>left</button>
-            <button className='btn'>right</button>
-        </div>
-      </main>
+      
       </>
     );
   }
