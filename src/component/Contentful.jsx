@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createClient } from 'contentful';
-import Technotools from "./Bilder/Technotools.png";
+
 import './Content.css'
 
 
@@ -27,6 +27,7 @@ function Contenful () {
         <>
         
         <h1 id='techno'>
+          
             Better space, better work.
             </h1>
 
