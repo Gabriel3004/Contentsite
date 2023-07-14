@@ -1,4 +1,9 @@
 import Technotools from "./Bilder/Technotools.png";
+import  instagram  from "./Bilder/instagram.png";
+import  facebook  from "./Bilder/facebook.png";
+import  youtube  from "./Bilder/youtube.png";
+import  twitter  from "./Bilder/twitter.png";
+
 import './myfooter.css'
 
 function MyFooter () {
@@ -57,10 +62,10 @@ function MyFooter () {
             </div>
 
         <div className="socialmedia">
-            <a href="https://www.instagram.com/"><img src= "src/component/Bilder/instagram.png" alt="instagram" className="socialntw" /></a>
-            <a href="https://www.facebook.com/"><img src= "src/component/Bilder/facebook.png" alt="facebook" className="socialntw"/></a>
-            <a href="https://www.youtube.com/"><img src="src/component/Bilder/youtube.png" alt="youtube" className="socialntw"/></a>
-            <a href="https://twitter.com/TwitterDE"><img src="src/component/Bilder/twitter.png" alt="twitter" className="socialntw"/></a>
+            <a href="https://www.instagram.com/"><img src= {instagram} alt="instagram" className="socialntw" /></a>
+            <a href="https://www.facebook.com/"><img src= {facebook} alt="facebook" className="socialntw"/></a>
+            <a href="https://www.youtube.com/"><img src={youtube} alt="youtube" className="socialntw"/></a>
+            <a href="https://twitter.com/TwitterDE"><img src={twitter} alt="twitter" className="socialntw"/></a>
         </div>
 
         <div id="copy">
