@@ -130,6 +130,12 @@
   padding-right: 15px;
 }
 
+#forgot {
+  display: flex;
+  justify-content: center;
+  padding-top: 3px;
+}
+
 .decision {
   display: flex;
   justify-content: space-evenly;
@@ -166,7 +172,7 @@
 
 .completname form {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-top: 20px;
 }
 
@@ -175,34 +181,45 @@
   align-items: center;
 }
 
+#myname h4 {
+  padding-right: 10px;
+}
+
 .card {
   display: flex;
   align-items: center;
   padding: 20px;
-  justify-content: space-evenly
+  justify-content: space-around
 }
 
 .type-card {
   display: flex;
   align-items: center;
-  padding: 20px;
-  justify-content: space-evenly;
+  padding: 10px;
+  justify-content: space-around;
 }
 
 .data {
   display: flex;
   align-items: center;
-  padding: 20px;
-  justify-content: space-evenly;
+  padding: 10px;
+  justify-content: space-around;
 }
 
 .cs {
   display: flex;
   align-items: center;
-  padding: 20px;
-  justify-content: space-evenly;
+  padding: 10px;
+  justify-content: space-around;
 }
 
-#myform2 h4 {
+#no-pay {
+  width: 90px;
+  border: none;
+}
 
+#no-pay:hover {
+  content: "Oh no";
+  /* width: 90px;
+  border: none; */
 }

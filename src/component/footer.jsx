@@ -15,9 +15,12 @@ function MyFooter () {
                 </div>
 
                 <div className="sendme" >
-                    <form action="email">
-                    <input type="email" placeholder="Your Email Addresse" /></form>
-                    <button className='ok'>OK</button>
+                    <form action="email"
+                    onSubmit={() => alert("You will receive 10% on your first purchase")}>
+                    <input type="email" placeholder="Your Email Addresse" />
+                    <button className='ok'
+                    
+                    >OK</button></form>
                 </div>
             </div>
 

@@ -13,7 +13,7 @@ export default function PopupGfg() {
                         <div className='modal'>
                             <div className='content'>
                                 <h1>Make your Account</h1>
-                                <div id='myform'>
+                                <div className='myform'>
                                         <div className='id-email'>
                                             <h4>Email</h4>
                                             <form action="">
@@ -25,6 +25,10 @@ export default function PopupGfg() {
                                             <input type="password" placeholder='YourPasswordBaby' required /></form>
                                         </div>
                                 </div>
+
+                                <div id='forgot'>
+                                    <a href="#">Forgot password?</a>
+                                </div>
                             
                             </div>
                             <div className='decision'>
@@ -35,7 +39,7 @@ export default function PopupGfg() {
                                 </button>
                                 <button className='decision-b'
                                 onClick=
-                                    {() => close()}>
+                                    {() => close(alert(`Please confirm your email in your email inbox`))} >
                                         Accept
                                 </button>
                             </div>
@@ -103,7 +107,7 @@ export function Pay() {
                             
                             </div>
                             <div className='decision'>
-                                <button className='decision-b'
+                                <button id='no-pay'
                                 onClick=
                                     {() => close()}>
                                         Cancel
