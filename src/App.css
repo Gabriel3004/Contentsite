@@ -24,17 +24,10 @@
     grid-area: menu; 
     display: grid;
     align-items: center;
+    grid-template-columns: 1fr 10fr;
+    gap: 10px;
     
-}
-
-.menu li {
-    list-style: none;
-}
-
-.menu a {
-    color: #bee0ec;
-    text-decoration: none;
-
+    
 }
 
 .login {
@@ -84,6 +77,9 @@
   
   .login:focus { outline:0; }
 
+
+  /* Login */
+
 .modal{
   background-color: #AEB8FE;
   display: flex;
@@ -100,12 +96,9 @@
   justify-content: center;
 }
 
-
-
-#myform {
+.myform {
   display: flex;
   flex-direction: column;
-
 }
 
 .id-email {
@@ -119,7 +112,7 @@
   padding-right: 40px;
 }
 
-#myform input {
+.myform input {
   background-color: #F1F2F6;
   border: none;
   padding: 8px;
@@ -169,3 +162,47 @@
 }
 
 
+/* Pay */
+
+.completname form {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+#myname {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly
+}
+
+.type-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.cs {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+#myform2 h4 {
+
+}

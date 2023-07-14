@@ -47,7 +47,7 @@ function MyFooter () {
                                 +97116699898
                             
                             <br />
-                            info@templatesjugle.com</p>
+                            info@technotools.com</p>
                         </div>
                         
                     </div>

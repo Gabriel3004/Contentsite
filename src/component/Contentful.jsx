@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { createClient } from 'contentful';
+
 import './Content.css'
 
 
